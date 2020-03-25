@@ -22,10 +22,10 @@ def about():
 def login():
     error = None
     if request.method == 'POST':
-        if request.form['username'].lower() != 'android':
+        if request.form['username'].lower() != 'morty':
             error = 'Invalid Credentials. Please try again.'
         else:
-            if request.form['password'] == 'Cybernetics':
+            if request.form['password'] == 'smith':
                 session['logged_in'] = True
                 session['filename'] = request.form['filename']
                 return redirect('./')

@@ -1,0 +1,18 @@
+{
+  "summary": {
+    "title": "SEC488 Threat Model",
+    "owner": "Me",
+    "description": "Flask Application to view files in browser"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "Data Flow Diagram",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ],
+    "reviewer": "Also Me"
+  }
+}
